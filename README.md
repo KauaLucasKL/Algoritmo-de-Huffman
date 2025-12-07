@@ -13,7 +13,7 @@ O projeto é organizado para funcionar via linha de comando (`g++` no Linux/Wind
 | Arquivo/Pasta | Descrição |
 | :--- | :--- |
 | **`main.cpp`** | O código-fonte principal que implementa todas as etapas do algoritmo de Huffman. |
-| **`data/`** | Diretório que armazena os arquivos de entrada e saída. |
+| **`data/`** | Pasta onde os arquivos input.dat e output.dat são gerados. |
 
 ---
 
