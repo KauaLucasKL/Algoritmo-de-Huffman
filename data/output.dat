@@ -1,0 +1,81 @@
+--- INICIO PROCESSAMENTO DOS TEXTOS ---
+
+===========================================
+PROCESSO DO TEXTO 1
+===========================================
+TEXTO ORIGINAL: O computador executa instrucoes em alta velocidade e processa dados com precisao.
+
+A) ESTRUTURA DA ARVORE DE HUFFMAN (Serializacao Pre-ordem):
+I 12 I 4 I 2 L precisao. 1 # # L instrucoes 1 # # I 2 L processa 1 # # L e 1 # # I 8 I 4 I 2 L executa 1 # # L computador 1 # # I 2 L alta 1 # # L dados 1 # # I 4 I 2 L O 1 # # L com 1 # # I 2 L em 1 # # L velocidade 1 # # 
+
+B) CONJUNTO DOS CODIGOS GERADOS:
+  'O' : 1100
+  'alta' : 1010
+  'com' : 1101
+  'computador' : 1001
+  'dados' : 1011
+  'e' : 011
+  'em' : 1110
+  'executa' : 1000
+  'instrucoes' : 001
+  'precisao.' : 000
+  'processa' : 010
+  'velocidade' : 1111
+
+C) TEXTO COMPRIMIDO (Binario - A ser decodificado):
+11001001100000111101010111101101010111101000
+
+--- FIM PROCESSO TEXTO 1 ---
+
+===========================================
+PROCESSO DO TEXTO 2
+===========================================
+TEXTO ORIGINAL: A memoria armazena informacoes que sao acessadas rapidamente pela CPU.
+
+A) ESTRUTURA DA ARVORE DE HUFFMAN (Serializacao Pre-ordem):
+I 10 I 4 I 2 L informacoes 1 # # L armazena 1 # # I 2 L A 1 # # L acessadas 1 # # I 6 I 2 L rapidamente 1 # # L memoria 1 # # I 4 I 2 L pela 1 # # L sao 1 # # I 2 L que 1 # # L CPU. 1 # # 
+
+B) CONJUNTO DOS CODIGOS GERADOS:
+  'A' : 010
+  'CPU.' : 1111
+  'acessadas' : 011
+  'armazena' : 001
+  'informacoes' : 000
+  'memoria' : 101
+  'pela' : 1100
+  'que' : 1110
+  'rapidamente' : 100
+  'sao' : 1101
+
+C) TEXTO COMPRIMIDO (Binario - A ser decodificado):
+0101010010001110110101110011001111
+
+--- FIM PROCESSO TEXTO 2 ---
+
+===========================================
+PROCESSO DO TEXTO 3
+===========================================
+TEXTO ORIGINAL: Os sistemas operacionais controlam os recursos e coordenam as tarefas do processador.
+
+A) ESTRUTURA DA ARVORE DE HUFFMAN (Serializacao Pre-ordem):
+I 12 I 4 I 2 L recursos 1 # # L processador. 1 # # I 2 L sistemas 1 # # L e 1 # # I 8 I 4 I 2 L os 1 # # L coordenam 1 # # I 2 L as 1 # # L do 1 # # I 4 I 2 L Os 1 # # L controlam 1 # # I 2 L operacionais 1 # # L tarefas 1 # # 
+
+B) CONJUNTO DOS CODIGOS GERADOS:
+  'Os' : 1100
+  'as' : 1010
+  'controlam' : 1101
+  'coordenam' : 1001
+  'do' : 1011
+  'e' : 011
+  'operacionais' : 1110
+  'os' : 1000
+  'processador.' : 001
+  'recursos' : 000
+  'sistemas' : 010
+  'tarefas' : 1111
+
+C) TEXTO COMPRIMIDO (Binario - A ser decodificado):
+11000101110110110000000111001101011111011001
+
+--- FIM PROCESSO TEXTO 3 ---
+
