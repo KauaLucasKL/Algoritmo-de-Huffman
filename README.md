@@ -6,7 +6,7 @@ O algoritmo constrói uma árvore binária ponderada, associando códigos binár
 
 ---
 
-## 1. 📂 Estrutura do Projeto
+## 📂 Estrutura do Projeto
 
 O projeto é organizado para funcionar via linha de comando (`g++` no Linux/Windows) e interage com o diretório `data/`:
 
@@ -17,7 +17,7 @@ O projeto é organizado para funcionar via linha de comando (`g++` no Linux/Wind
 
 ---
 
-## 2. 📄 Entrada (`input.dat`) e Saída (`output.dat`)
+## 📄 Entrada (`input.dat`) e Saída (`output.dat`)
 
 ### Arquivo de Entrada (`input.dat`)
 
